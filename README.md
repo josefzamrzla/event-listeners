@@ -21,7 +21,7 @@ Attach some event listeners
 
 ```javascript
 
-var hander = function() {
+var handler = function() {
     console.log('body clicked');
 };
 
@@ -33,6 +33,19 @@ Get list of listeners attached to document.body
 ```javascript
 
 var listeners = document.body.getEventListeners();
+```
+
+Result
+
+```javascript
+[
+    Object
+        handler: function () {
+        target: body.logged_in.env-production.macintosh.vis-public
+        type: "click"
+        useCapture: false
+        __proto__: Object
+]
 ```
 
 Or get list of all listeners attached to any element
