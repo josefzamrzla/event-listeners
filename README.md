@@ -6,7 +6,6 @@ Install dependencies and run Grunt
 
 npm install
 grunt
-
 ```
 
 ## Usage
@@ -16,7 +15,6 @@ Link as a first script to HEAD
 ```html
 
 <script type="text/javascript" src="dist/events.min.js"></script>
-
 ```
 
 Attach some event listeners
@@ -28,7 +26,6 @@ var hander = function() {
 };
 
 document.body.addEventListener('click', handler, false);
-
 ```
 
 Get list of listeners attached to document.body
@@ -36,7 +33,6 @@ Get list of listeners attached to document.body
 ```javascript
 
 var listeners = document.body.getEventListeners();
-
 ```
 
 Or get list of all listeners attached to any element
@@ -44,5 +40,4 @@ Or get list of all listeners attached to any element
 ```javascript
 
 var listeners = window.getAllEventListeners();
-
 ```
