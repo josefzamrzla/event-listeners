@@ -1,6 +1,6 @@
 ## Installation
 
-Install dependencies and run Grunt
+Install dependencies and run Grunt to check syntax and create minified version
 
 ```bash
 
